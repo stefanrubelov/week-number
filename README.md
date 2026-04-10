@@ -24,9 +24,11 @@ A native Apple app suite that shows the current ISO week number across all your 
 - **Adaptive widget** — small widget shows week + date range; medium adds weeks remaining
 
 ## Screenshots
-
-![macOS menu bar popover dark](docs/screenshots/mac-dark-mockup.png)
-![macOS menu bar popover light](docs/screenshots/mac-light-mockup.png)
+ <p align="center">                                                                                                    
+    <img src="docs/screenshots/mac-dark-mockup.png" width="45%"/>                                                         
+    &nbsp;&nbsp;                                                                                                        
+    <img src="docs/screenshots/mac-light-mockup.png" width="45%"/>
+  </p>   
 
 ## Requirements
 

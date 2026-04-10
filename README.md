@@ -40,7 +40,7 @@ A native Apple app suite that shows the current ISO week number across all your 
   
  ### Apple Watch
  <p align="center">                                                                                                    
-    <img src="docs/screenshots/watch-ultra-3-dark-mockup.png" width="45%"/>                                                         
+    <img src="docs/screenshots/apple-watch-ultra-3-dark-mockup.png" width="45%"/>                                                         
     &nbsp;&nbsp;                                                                                                        
   </p>  
 ## Requirements

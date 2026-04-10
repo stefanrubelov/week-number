@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:">
+   </FileRef>
+   <Group
+      location = "group:mac"
+      name = "mac">
+      <FileRef
+         location = "group:Assets.xcassets">
+      </FileRef>
+      <FileRef
+         location = "group:CurrentWeekView.swift">
+      </FileRef>
+      <FileRef
+         location = "group:MiniCalendarView.swift">
+      </FileRef>
+      <FileRef
+         location = "group:PopoverView.swift">
+      </FileRef>
+      <FileRef
+         location = "group:SettingsView.swift">
+      </FileRef>
+      <FileRef
+         location = "group:week_numberApp.swift">
+      </FileRef>
+      <FileRef
+         location = "group:WeekNavView.swift">
+      </FileRef>
+      <FileRef
+         location = "group:WeekStore.swift">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:watchh"
+      name = "watchh">
+      <FileRef
+         location = "group:Assets.xcassets">
+      </FileRef>
+      <FileRef
+         location = "group:WatchApp.swift">
+      </FileRef>
+      <FileRef
+         location = "group:WatchContentView.swift">
+      </FileRef>
+      <FileRef
+         location = "group:WatchWeekStore.swift">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:shared"
+      name = "shared">
+      <FileRef
+         location = "group:Date+Week.swift">
+      </FileRef>
+   </Group>
+</Workspace>

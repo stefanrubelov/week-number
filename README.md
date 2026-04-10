@@ -25,7 +25,7 @@ A native Apple app suite that shows the current ISO week number across all your 
 
 ## Screenshots
 
-> Screenshots coming soon. See the [Adding Screenshots](#adding-screenshots) section below.
+![macOS menu bar popover](docs/screenshots/mac-dark-mockup.png)
 
 ## Requirements
 
@@ -73,7 +73,7 @@ widget/
 
 3. **Reference them in this README** using relative paths:
    ```markdown
-   ![macOS menu bar popover](docs/screenshots/mac-dark-mockup.png)
+   
    ![iOS app](docs/screenshots/ios-main.png)
    ```
 

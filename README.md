@@ -25,7 +25,8 @@ A native Apple app suite that shows the current ISO week number across all your 
 
 ## Screenshots
 
-![macOS menu bar popover](docs/screenshots/mac-dark-mockup.png)
+![macOS menu bar popover dark](docs/screenshots/mac-dark-mockup.png)
+![macOS menu bar popover light](docs/screenshots/mac-light-mockup.png)
 
 ## Requirements
 

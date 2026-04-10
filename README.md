@@ -33,9 +33,9 @@ A native Apple app suite that shows the current ISO week number across all your 
 
   ### iPhone
  <p align="center">                                                                                                    
-    <img src="docs/screenshots/iphone-15-dark-mockup.png" width="45%"/>                                                         
+    <img src="docs/screenshots/iphone-15-pro-dark-mockup.png" width="45%"/>                                                         
     &nbsp;&nbsp;                                                                                                        
-    <img src="docs/screenshots/iphone-15-light-mockup.png" width="45%"/>
+    <img src="docs/screenshots/iphone-15-pro-light-mockup.png" width="45%"/>
   </p>  
 
 ## Requirements

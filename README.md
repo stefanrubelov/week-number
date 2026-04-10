@@ -69,29 +69,11 @@ widget/
   WeekWidget.swift      # WidgetKit provider, small + medium layouts
 ```
 
-## Adding Screenshots
-
-To add screenshots to this README:
-
-1. **Take screenshots** from the Simulator or a real device:
-   - macOS: `Cmd + Shift + 4` to capture the menu bar popover
-   - iOS Simulator: `Cmd + S` inside the Simulator, or `Device > Save Screenshot`
-   - Xcode Organizer: `Window > Organizer > Screenshots` for device screenshots
-
-2. **Create a `docs/screenshots/` folder** and drop the image files there:
-   ```
-   docs/
-     screenshots/
-       mac-popover.png
-       ios-main.png
-       watch-face.png
-       widget-small.png
-       widget-medium.png
-   ```
+## Screenshots
 
 3. **Reference them in this README** using relative paths:
    ```markdown
-   ![macOS menu bar popover](docs/screenshots/mac-popover.png)
+   ![macOS menu bar popover](docs/screenshots/mac-dark-mockup.png)
    ![iOS app](docs/screenshots/ios-main.png)
    ```
 

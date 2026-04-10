@@ -37,7 +37,12 @@ A native Apple app suite that shows the current ISO week number across all your 
     &nbsp;&nbsp;                                                                                                        
     <img src="docs/screenshots/iphone-15-pro-light-mockup.png" width="45%"/>
   </p>  
-
+  
+ ### Apple Watch
+ <p align="center">                                                                                                    
+    <img src="docs/screenshots/watch-ultra-3-dark-mockup.png" width="45%"/>                                                         
+    &nbsp;&nbsp;                                                                                                        
+  </p>  
 ## Requirements
 
 - Xcode 16+
@@ -79,19 +84,3 @@ watch/
 widget/
   WeekWidget.swift      # WidgetKit provider, small + medium layouts
 ```
-
-## Screenshots
-
-3. **Reference them in this README** using relative paths:
-   ```markdown
-   
-   ![iOS app](docs/screenshots/ios-main.png)
-   ```
-
-4. **Commit the images** along with the updated README:
-   ```bash
-   git add docs/screenshots/ README.md
-   git commit -m "Add screenshots"
-   ```
-
-> Tip: keep screenshots at 2x resolution (retina) but export at a reasonable size (e.g. 600–800px wide) so the README doesn't feel heavy.

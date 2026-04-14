@@ -1,5 +1,5 @@
 # Week Number
-
+  <img src="AppIcon-Light.png" />   
 A native Apple app suite that shows the current ISO week number across all your devices — macOS menu bar, iPhone, Apple Watch, and a home screen widget.
 
 ## Platforms

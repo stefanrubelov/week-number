@@ -103,8 +103,14 @@ class WeekStore {
     init() {
         self.firstWeekday = UserDefaults.standard.object(forKey: "firstWeekday") as? Int ?? 2
         self.menuBarFormat = MenuBarFormat(rawValue: UserDefaults.standard.string(forKey: "menuBarFormat") ?? "") ?? .short
-        self.launchAtLogin = UserDefaults.standard.bool(forKey: "launchAtLogin")
+        let wantsLaunchAtLogin = UserDefaults.standard.bool(forKey: "launchAtLogin")
+        self.launchAtLogin = SMAppService.mainApp.status == .enabled
         setupNotifications()
+        // Re-register if preference says on but service isn't actually registered
+        if wantsLaunchAtLogin && SMAppService.mainApp.status != .enabled {
+            try? SMAppService.mainApp.register()
+            self.launchAtLogin = SMAppService.mainApp.status == .enabled
+        }
     }
 
     // MARK: - Actions

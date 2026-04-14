@@ -11,7 +11,7 @@ struct WeekNavView: View {
                 } label: {
                     Image(systemName: "chevron.left")
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.glass)
 
                 Spacer()
 
@@ -36,14 +36,14 @@ struct WeekNavView: View {
                 } label: {
                     Image(systemName: "chevron.right")
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.glass)
             }
 
             if store.isNavigatingAway {
                 Button("Jump to today") {
                     store.jumpToToday()
                 }
-                .buttonStyle(.bordered)
+                .buttonStyle(.glass)
                 .controlSize(.small)
             }
         }

@@ -47,9 +47,8 @@ struct PopoverView: View {
                     }
                 } label: {
                     Image(systemName: "gear")
-                        .foregroundStyle(store.showSettings ? .primary : .secondary)
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.glass)
             }
             .padding(.horizontal)
             .padding(.vertical, 8)

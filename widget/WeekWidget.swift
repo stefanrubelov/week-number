@@ -29,6 +29,10 @@ struct WeekProvider: TimelineProvider {
         completion(Timeline(entries: [entry], policy: .after(tomorrow)))
     }
 
+    func makePreviewEntry() -> WeekEntry {
+        makeEntry(for: Date())
+    }
+
     private func makeEntry(for date: Date) -> WeekEntry {
         let firstWeekday = UserDefaults.standard.object(forKey: "firstWeekday") as? Int ?? 2
         let calendar = Calendar.weekCalendar(firstWeekday: firstWeekday)
@@ -86,9 +90,6 @@ struct MediumWidgetView: View {
                 HStack(alignment: .firstTextBaseline, spacing: 6) {
                     Text("Week \(entry.weekNumber)")
                         .font(.system(size: 36, weight: .bold, design: .rounded))
-                    Text(String(entry.year))
-                        .font(.title3)
-                        .foregroundStyle(.secondary)
                 }
                 Text(entry.weekRangeString)
                     .font(.caption)
@@ -138,6 +139,18 @@ struct WeekWidget: Widget {
         .description("Shows the current ISO week number.")
         .supportedFamilies([.systemSmall, .systemMedium])
     }
+}
+
+#Preview("Small", as: .systemSmall) {
+    WeekWidget()
+} timeline: {
+    WeekProvider().makePreviewEntry()
+}
+
+#Preview("Medium", as: .systemMedium) {
+    WeekWidget()
+} timeline: {
+    WeekProvider().makePreviewEntry()
 }
 
 @main
